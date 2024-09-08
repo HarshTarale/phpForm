@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.hero{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+}
+.nav{
+    width: 100vw;
+    padding: 5px 50px;
+    text-align: end;
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.97);
+
+}
+main{
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+justify-content: center;
+padding: 20px;
+}
+form{
+    width: 640px;
+    height: 120vh;
+    padding: 20px ;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+
+}
+li{
+    width:600px ;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+input{
+    outline-color: rgb(255, 194, 88);
+    padding: 10px;
+}
+.input{
+    width: 400px;
+}
+#gender{
+    width: 400px;
+
+}
+.line_7{
+    height: 120px;
+}
+textarea{
+    width: 400px;
+height: 100px;
+resize: none;
+}
+.line_12{
+    height: 120px;
+}
+#specialization{
+    width: 400px;
+    padding: 0px 9px;
+    
+}
+.spetionl{
+    display: block;
+}
+button{
+    background-image: linear-gradient(rgb(112, 192, 112),rgb(35, 113, 35));
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#error{
+    margin-top:30% ;
+    margin-left: 20%;
+    padding: 30px;
+    
+    border: solid 10px red;
+    border-radius: 10px;
+
+}
