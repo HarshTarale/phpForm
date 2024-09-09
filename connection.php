@@ -2,9 +2,9 @@
 <?php
 
                                                          //  SQL Connection
-$dbname = "mysql:host=localhost:3307;dbname=college;";
-$user_name = "root";
-$password = null ; 
+$dbname = "mysql:host=sql212.infinityfree.com;dbname=if0_37273379_name;";
+$user_name = "if0_37273379";
+$password = "tqbtfX0ziM"; 
 
 $conn =  new PDO($dbname, $user_name ,$password);
 
